@@ -1,5 +1,6 @@
 $('.figures').click(function(){
     let sideBarWidth = $('.container-side').innerWidth();
+    $('.sideBar').css('left',`-${sideBarWidth}px`);
     if($('.sideBar').css('left') === '0px'){
         $('.sideBar').animate({left: `-${sideBarWidth}px`},700);
       

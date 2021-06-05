@@ -26,11 +26,13 @@ $(window).scroll(function(){
         $('.nav-link').css('color','#333');
         $('.navbar-nav>li.active>.nav-link').css('color','#f25454');
         $('.navbar-brand img').attr('src','images/logo-red.png');
+         $('.navbar-toggler i').css('color',"#333");
        
     }else{
         $('nav').removeClass('change-nav');
         $('.nav-link').css('color','#fff');
         $('.navbar-brand img').attr('src','images/logo-white.png');
+        $('.navbar-toggler i').css('color',"#fff");
     }
 });
 

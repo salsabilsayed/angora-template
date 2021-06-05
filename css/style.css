@@ -135,7 +135,7 @@ header .icon i{
 }
 .sideBar{
     position:fixed;
-    left: 0px;
+    left: -250px;
     top:18%;
     z-index: 3;  
     

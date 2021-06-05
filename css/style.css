@@ -74,7 +74,7 @@ nav i{
     font-size: 14px;
 }
 .bg-color{
-    background-color: #fff;
+    background-color: rgba(0,0,0,0.4);
     text-align: left;
 }
 .navbar-light .navbar-nav .nav-link{
